@@ -23,6 +23,7 @@
         </div>
     </form>
     <br>
+    <br>
     <form id="form-2">
         <div>
             <h1 id="sandwich">Sandwich Builder</h1>
@@ -129,41 +130,80 @@
             </div>
         </div>
     </form>
-    <form>
+    <br>
+    <br>
+    <form id="form-3">
         <center>
             <div>
-                <h1>Haircut Appointment Scheduler</h1>
+                <h1 id="hc-title">Haircut Appointment Scheduler</h1>
             </div>
-            <div>
-                <p>What day would you like to come in?</p>
-                <input type="date">
+            <div id="date-div">
+                <p class="para">What day would you like to come in:</p>
+                <input type="date" id="calendar">
             </div>
-            <div>
-                <p>Please describe your haircut.</p>
-                <input type="text" id="userInput-hc" autocomplete="off" placeholder="Description">
+            <div id="stylist-div">
+                <p class="para">Which stylist would you like:</p>
+                <input type="text" id="userInput-hc" autocomplete="off" placeholder="Stylist">
             </div>
-            <div>
-                <p>Length of hair.</p>
+            <div id="length-div">
+                <p class="para">Length of hair:</p>
                 <input type="radio" name="length" id="long">
-                <label>Long</label>
-                <p>Or</p>
+                <label class="length">Long</label>
                 <input type="radio" name="length" id="short">
-                <label>Long</label>
+                <label class="length">Short</label>
             </div>
             <div>
                 <input type="submit" id="submit-3">
             </div>
-
-
-
         </center>
     </form>
-    <form>
-        <div>
-
-        </div>
-        <div>
-
+    <br>
+    <br>
+    <form id="form-4">
+        <div class="row">
+            <div class="column">
+                <div id="image">
+                    <p class="letter">T</p>
+                    <p class="letter">h</p>
+                    <p class="last-letter">e</p>
+                    <p class="letter">C</p>
+                    <p class="letter">u</p>
+                    <p class="letter">l</p>
+                    <p class="last-letter">t</p>
+                    <p class="letter">o</p>
+                    <p class="last-letter">f</p>
+                    <p class="letter">H</p>
+                    <p class="letter">a</p>
+                    <p class="letter">n</p>
+                    <p class="letter">u</p>
+                    <p class="letter">m</p>
+                    <p class="letter">a</p>
+                    <p class="letter">n</p>
+                </div>
+            </div>
+            <div class="column">
+                <div id="forms">
+                    <div class="inputs">
+                        <h3 class="h3-text">Username:</h3>
+                        <input type="text" id="username-4">
+                    </div>
+                    <div class="inputs">
+                        <h3 class="h3-text">Email:</h3>
+                        <input type="email" id="email-4">
+                    </div>
+                    <div class="inputs">
+                        <h3 class="h3-text">Password:</h3>
+                        <input type="password" id="pw-4">
+                    </div>
+                    <div class="inputs">
+                        <h3 class="h3-text">Confirm password:</h3>
+                        <input type="password" id="con-pw-4">
+                    </div>
+                    <div>
+                        <input type="submit" id="submit-4">
+                    </div>
+                </div>
+            </div>
         </div>
     </form>
 

@@ -2,6 +2,9 @@ body {
     background-image: url("https://i.pinimg.com/originals/0b/da/44/0bda44739c44419c7bad50aae4b81129.jpg");
 }
 
+
+/* ALERTER */
+
 #submit-1 {
     background-color: black;
     color: white;
@@ -11,6 +14,9 @@ body {
 #userInput-1 {
     border-radius: 6px;
 }
+
+
+/* SANDWICH BUILDER */
 
 #form-2 {
     background-image: url("https://i.imgflip.com/4bcun0.jpg");
@@ -33,4 +39,107 @@ body {
 #submit-2 {
     margin-bottom: 16px;
     border-radius: 6px;
+    color: yellow;
+    background-color: darkgreen;
 }
+
+
+/* HC APPOINTMENT SCHEDULER */
+
+#form-3 {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/58b451af03596efb0e7d5f95/1553094133322-YUHH0CTYT9P0PCK2AZDJ/iStock-1040185698.jpg");
+    background-size: 900px;
+    border: 4px solid black;
+    border-radius: 12px;
+}
+
+#hc-title {
+    color: rgb(164, 1, 1);
+}
+
+.para {
+    color: cyan;
+}
+
+#submit-3 {
+    margin-bottom: 16px;
+    margin-top: 16px;
+    border-radius: 5px;
+    background-color: rgb(164, 1, 1);
+   
+}
+
+.length {
+    color: cyan;
+}
+
+#userInput-hc {
+    border-radius: 5px;
+}
+
+#calendar {
+    border-radius: 5px;
+}
+
+#date-div {
+    padding-bottom: 20px;
+}
+
+#stylist-div {
+    padding-bottom: 20px;
+}
+
+#length-div {
+    padding-bottom: 20px;
+}
+
+
+/* CREATE ACCOUNT */
+
+#forms {
+    background-color: darkgrey;
+    background-image: url("https://st2.depositphotos.com/4756885/9364/v/600/depositphotos_93642360-stock-illustration-vector-illustration-of-a-halftone.jpg");
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-left: solid black 4px;
+    border-radius: 10px;
+    color: rgb(144, 57, 3);
+}
+
+#image {
+    background-image: url("https://openthemagazine.com/wp-content/uploads/2019/04/Hanuman1.jpg");
+    background-size: 500px;
+    color: white;
+    padding-left: 20px;
+    margin-top: -16px;
+    border-radius: 10px;
+}
+
+#submit-4 {
+    background-color: rgb(144, 57, 3);
+    color: white;
+}
+
+.h3-text {
+    margin-bottom: -3px;
+}
+
+.letter {
+    margin-bottom: -20px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+};
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+};
+
+
+
+

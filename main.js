@@ -122,4 +122,32 @@ form2.addEventListener('submit', function(event){
 
 // HAIRCUT APPOINTMENT SCHEDULER
 
+let dateHC = document.querySelector("#calendar");
+let stylist = document.querySelector("#userInput-hc");
+let lengthLong = document.querySelector("#long");
+let lengthShort = document.querySelector("#short");
+let submit3 = document.querySelector("#submit-3");
+let form3 = document.querySelector("#form-3")
+
+form3.addEventListener('submit', function(event){
+    event.preventDefault();
+    let length = "";
+    if (lengthLong.checked === true){
+        length += "Long";
+    } else if (lengthShort.checked){
+        length += "Short";
+    } else {
+        alert(`Please select a length.`)
+    }
+    alert(`Haircut scheduled for ${dateHC.value} with ${stylist.value} for ${length} hair.`)
+    stylist.value = "";
+    dateHC.value = "";
+    lengthLong.checked = false;
+    lengthShort.checked = false;
+});
+
+
+// CREATE ACCOUNT
+
+let 
 
