@@ -126,6 +126,7 @@ let dateHC = document.querySelector("#calendar");
 let stylist = document.querySelector("#userInput-hc");
 let lengthLong = document.querySelector("#long");
 let lengthShort = document.querySelector("#short");
+
 let submit3 = document.querySelector("#submit-3");
 let form3 = document.querySelector("#form-3")
 
@@ -157,6 +158,14 @@ let conpw4 = document.querySelector("#con-pw-4");
 
 form4.addEventListener('submit', function(event){
     event.preventDefault();
+    let userN = userName4.value;
+    let passw = pw4.value;
+    if (userN.length < 3){
+        alert(`Username needs to be at least 3 characters.`)
+    }
+    if (passw.length < 4){
+        alert(`Password needs to be at least 4 characters.`)
+    }
     if (pw4.value !== conpw4.value){
         alert(`Passwords do not match. Try again.`)
     }
