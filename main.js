@@ -149,5 +149,21 @@ form3.addEventListener('submit', function(event){
 
 // CREATE ACCOUNT
 
-let 
+let form4 = document.querySelector("#form-4")
+let userName4 = document.querySelector("#username-4");
+let email4 = document.querySelector("#email-4");
+let pw4 = document.querySelector("#pw-4");
+let conpw4 = document.querySelector("#con-pw-4");
 
+form4.addEventListener('submit', function(event){
+    event.preventDefault();
+    if (pw4.value !== conpw4.value){
+        alert(`Passwords do not match. Try again.`)
+    }
+    alert(`Your username is: ${userName4.value}.
+Your email is: ${email4.value}`);
+    userName4.value = "";
+    email4.value = "";
+    pw4.value = "";
+    conpw4.value = "";
+})
